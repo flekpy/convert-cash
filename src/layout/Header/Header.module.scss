@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  margin-top: 25px;
+  margin-bottom: 70px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.link {
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+  text-decoration: none;
+  color: var(--light-blue);
+}
+
+.link span {
+  margin-left: 5px;
+  padding-bottom: 7px;
+}

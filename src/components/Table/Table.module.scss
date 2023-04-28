@@ -1,0 +1,39 @@
+.tableWrapper {
+  overflow: auto;
+  max-width: 700px;
+  max-height: 600px;
+  position: relative;
+}
+
+.table {
+  width: 100%;
+  position: sticky;
+  color: var(--light-blue);
+  background-color: #0c132d;
+  border-collapse: collapse;
+}
+
+.table thead th {
+  top: 0;
+  z-index: 1;
+  position: sticky;
+  background-color: #0c132d;
+}
+
+.table,
+th,
+td {
+  border: none;
+  padding: 10px;
+  height: 50px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.table td {
+  width: 50%;
+}
+
+.table tbody tr:nth-child(odd) {
+  background-color: #14235a;
+}
